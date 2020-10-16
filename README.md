@@ -36,6 +36,15 @@ iv.) Pseudo labelling
 Implementations of the above architecture with these strategies can be found in the repo.
 
 ## Results
+EfficientDet with above approaches performed better compared to the other architectures.
+
+Private LB: 
+Score = 0.6445
+Rank = 221
+
+Private LB: 
+Score = 0.7416
+Rank = 196
 ![alt text](https://github.com/nirvana1707/globalwheatdetection/blob/main/images/detected_wheat_heads.PNG)
 
 
