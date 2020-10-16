@@ -36,5 +36,4 @@ iv.) Pseudo labelling
 Implementations of the above architecture with these strategies can be found in the repo.
 
 ## Results
-
-!https://github.com/nirvana1707/globalwheatdetection/blob/main/images/detected_wheat_heads.PNG
+![alt text](https://github.com/nirvana1707/globalwheatdetection/blob/main/images/detected_wheat_heads.PNG?raw=true)
