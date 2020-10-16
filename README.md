@@ -20,8 +20,21 @@ Current detection involve one and two stage detectors (Yolo-V3 and Faster RCNN),
 ## Dataset
 Dataset for the challenge has been provided by Kaggle. However, the data collation was led by nine research institutes from seven countries: the University of Tokyo, Institut national de recherche pour l’agriculture, l’alimentation et l’environnement, Arvalis, ETHZ, University of Saskatchewan, University of Queensland, Nanjing Agricultural University, and Rothamsted Research. These institutions are joined by many in their pursuit of accurate wheat head detection, including the Global Institute for Food Security, DigitAg, Kubota, and Hiphen.
 
-## Approaches and Code
+## Methodology
 
+I used different object detection frameworks on PyTorch to detect "wheat heads". Experimentations were done with hyperparameters of 3 different architectures:
+1.) ResNet50
+2.) YoloV5
+3.) EfficientDet
 
+After EDA on the training data, experiementations and analysis of LB score, following were implementedas part of the code framework:
+i.) OOF strategy
+ii.) Augmentation pipeline with random variations in cropping, hue saturation value, orientational flips, cutout and cutmix
+iii.) TTA 
+iv.) Pseudo labelling
+
+Implementations of the above architecture with these strategies can be found in the repo.
 
 ## Results
+
+!https://github.com/nirvana1707/globalwheatdetection/blob/main/images/detected_wheat_heads.PNG
