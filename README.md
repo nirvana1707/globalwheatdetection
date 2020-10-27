@@ -10,7 +10,7 @@ Images are wheat fields are used to estimate the density and size of spikes whic
 ## Challenges
 Detection of wheat heads often encounter a variety of challenges raning from climatic, geographic and phenotypic conditions. Some of which are :
 a.) overlap of dense wheat plants
-b.) climatic conditions such as wind, rain blurring photograps
+b.) climatic conditions such as wind, rain, snow blurring photograps
 c.) unwanted objects (such as insects) sitting atop the wheat heads
 d.) variation in appearance on account of maturity, color, genotype, and orientation
 e.) geographical variations in varieties, densities, pattens and overall field/environment conditions.
@@ -36,7 +36,7 @@ iv.) Pseudo labelling
 Implementations of the above architecture with these strategies can be found in the repo.
 
 ## Results
-EfficientDet with above approaches performed better compared to the other architectures.
+EfficientDet with above approaches performed better compared to ResNet50 and YoloV5 architectures
 
 Private LB: 
 Score = 0.6445
